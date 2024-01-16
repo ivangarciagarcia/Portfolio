@@ -1,0 +1,56 @@
+
+/* SECCION 1 */
+.presentation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Ajusta según tus necesidades */
+  }
+  
+  .left-column, .right-column {
+    width: 48%; /* Puedes ajustar el ancho según tus necesidades */
+  }
+  
+  .my-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Ajusta según tus preferencias, para esquinas redondeadas */
+    margin: auto; /* Centra la imagen verticalmente */
+    display: block; /* Para que el margen automático funcione correctamente */
+    /* Otros estilos según tus preferencias */
+  }
+
+
+  /* SECCION 2 */
+
+  .technologies-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .centered-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .icons-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Espacio entre las filas de iconos */
+  }
+  
+  .icon {
+    margin: 0 10px; /* Espacio entre los iconos */
+    font-size: 40px;
+  }
+  h2{
+    font-size: 40px;
+  }
+
+  p{
+    color: #0D7377;
+    font-size: 20px;
+  }
+
+    /* SECCION 3 */
+
