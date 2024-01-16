@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 100px; /* Aumenta el espacio de relleno para hacer la navbar más ancha */
+  padding: 30px 50px ; /* Aumenta el espacio de relleno para hacer la navbar más ancha */
   background-color: #333;
   color: #fff;
   font-family: 'Roboto', sans-serif; /* Utiliza la fuente Roboto */
