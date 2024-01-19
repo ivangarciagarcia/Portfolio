@@ -1,7 +1,9 @@
 /* styles.css */
 
 .experience {
-    margin-top: 20px;
+    z-index: -1;
+    margin-left: 130px; /* Puedes ajustar el valor según tus necesidades */
+    margin-right: 130px; /* Puedes ajustar el valor según tus necesidades */
   }
   
   .experience-item {
@@ -30,7 +32,7 @@
   }
   
   /* Media Query para dispositivos móviles */
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .experience-item {
       padding: 20px;
     }
@@ -39,6 +41,11 @@
     }
     .experience-title{
         font-size: 16px;
+        
+    }
+    .experience{
+      margin-left: 0px; /* Puedes ajustar el valor según tus necesidades */
+      margin-right: 0px;
     }
   }
   

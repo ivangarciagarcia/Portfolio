@@ -23,6 +23,7 @@ h1{
     display: flex;
     justify-content: space-between;
     padding: 20px; /* Ajusta según tus necesidades */
+    margin-bottom: 80px;
   }
   
   .left-column-1 {
@@ -43,6 +44,7 @@ h1{
   .technologies-container {
     text-align: center;
     padding: 20px;
+    margin-bottom: 100px;
   }
   
   .centered-content {
