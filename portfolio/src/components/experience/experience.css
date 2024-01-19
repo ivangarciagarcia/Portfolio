@@ -1,0 +1,44 @@
+/* styles.css */
+
+.experience {
+    margin-top: 20px;
+  }
+  
+  .experience-item {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #323232; /* Agregamos una barra sólida entre cada experiencia */
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .exp-description {
+    color: #0D7377;
+  }
+  
+  .experience-date {
+    font-style: italic;
+    color: #ccc;
+  }
+  .titulo-seccion{
+    margin-top: 60px;
+  }
+  
+  /* Media Query para dispositivos móviles */
+  @media (max-width: 768px) {
+    .experience-item {
+      padding: 20px;
+    }
+    .titulo-seccion{
+        font-size: 24px;
+    }
+    .experience-title{
+        font-size: 16px;
+    }
+  }
+  

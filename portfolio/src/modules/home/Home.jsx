@@ -10,6 +10,7 @@ import { FaMailBulk } from "react-icons/fa";
 
 import "./home.css";
 import { ContactForm } from "../../components/contactForm/ContactForm";
+import Experience from "../../components/experience/Experience";
 export const Home = () => {
 
     const iconsRow1 =[<IoLogoHtml5 key={1}/>, <IoLogoCss3 key={2}/>, <SiJavascript key={3}/>, <SiTypescript key={4}/>, <IoLogoReact key={5}/>, <IoLogoSass key={6}/>]
@@ -54,7 +55,7 @@ export const Home = () => {
                 </div>
             </div>
         </section>
-
+        <Experience/>
         <section className="technologies-container">
         <div className="centered-content">
           <h2 className="titulo-seccion">Tecnologías</h2>
