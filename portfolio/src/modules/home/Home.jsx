@@ -17,7 +17,7 @@ export const Home = () => {
     const iconsRow3 =[<IoLogoGithub key={13}/>, <FaLinkedin key={14}/>, <FaInstagram key={15}/>]
 
     return(
-      <div >
+      <div className="content-wrapper">
         <section className="presentation-container">
             <div className="left-column-1">
                 <PersonalCard/>

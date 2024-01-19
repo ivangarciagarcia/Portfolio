@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px ; /* Aumenta el espacio de relleno para hacer la navbar más ancha */
+  padding: 80px 100px ; /* Aumenta el espacio de relleno para hacer la navbar más ancha */
   background-color: #212121;
   color: #14FFEC;
 }
@@ -12,7 +12,7 @@
 .left {
   margin-right: 10px; /* Añade un poco de separación a la derecha */
   font-weight: bold;
-  font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+  font-size: 2.5em; /* Ajusta el tamaño de la fuente */
 }
 
 .center {
@@ -38,4 +38,49 @@
 
 .link:last-child {
   margin-left: 10px; /* Añade separación a la izquierda del último enlace */
+}
+
+
+/* DISPOSITIVOS MOVILES */
+
+@media only screen and (max-width: 750px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px ; /* Aumenta el espacio de relleno para hacer la navbar más ancha */
+    background-color: #212121;
+    color: #14FFEC;
+  }
+  
+  .left {
+    margin-right: 10px; /* Añade un poco de separación a la derecha */
+    font-weight: bold;
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+  }
+  
+  .center {
+    flex: 1;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .link {
+    margin: 0 10px; /* Añade un poco de separación a cada lado de los enlaces */
+    cursor: pointer;
+    font-size: 1em; /* Ajusta el tamaño de la fuente */
+  }
+  
+  /* Añade estilos para el primer y último enlace */
+  .link:first-child {
+    margin-right: 10px; /* Añade separación a la derecha del primer enlace */
+  }
+  
+  .link:last-child {
+    margin-left: 10px; /* Añade separación a la izquierda del último enlace */
+  }
 }

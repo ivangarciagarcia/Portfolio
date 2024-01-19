@@ -6,6 +6,8 @@ export const Navbar = (props) => {
     const {name, tab1, tab2, tab3} = props;
 
   return (
+    <div className="content-wrapper">
+
     <nav className="navbar">
       <div className="left">{name}</div>
       <div className="center"></div>
@@ -15,6 +17,7 @@ export const Navbar = (props) => {
         <span className="link">{tab3}</span>
       </div>
     </nav>
+    </div>
   );
 };
 

@@ -1,7 +1,16 @@
 .my-photo {
-    max-width: 50%;
+    max-width: 65%;
     height: auto;
     border-radius: 8px; /* Ajusta según tus preferencias, para esquinas redondeadas */
     margin: auto; /* Centra la imagen verticalmente */
     display: block; /* Para que el margen automático funcione correctamente */
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 900px) {
+  
+    .my-photo {
+      margin-top: 0px;
+
+    }
   }
