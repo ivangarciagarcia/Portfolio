@@ -15,13 +15,12 @@
   width: 100%;
   padding: 0;
   margin: 0;
-
 }
 
 #fs-frm {
-  max-width: 400px; /* Ajusta el ancho máximo del formulario según tus preferencias */
-  margin: 0 auto; /* Centra el formulario horizontalmente */
-  padding: 0 10px; /* Agrega un margen de 10px a los lados del formulario */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 #fs-frm label,
@@ -39,19 +38,22 @@
 #fs-frm select,
 #fs-frm textarea,
 #fs-frm #card-element {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
+  border: none; /* Removemos el borde original */
+  border-bottom: 1px solid #ccc; /* Agregamos un nuevo borde en la parte inferior */
+  background-color: #212121;
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
-  color: black; /* Color del texto dentro de los inputs */
   resize: none;
+}
 
+#fs-frm input::placeholder,
+#fs-frm textarea::placeholder {
+  color: #14FFEC; /* Color del texto del placeholder */
 }
 
 #fs-frm input:focus,
 #fs-frm select:focus,
 #fs-frm textarea:focus {
-  background-color: white;
   outline-style: solid;
   outline-width: thin;
   outline-color: gray;
@@ -88,7 +90,3 @@ input[type=number] { -moz-appearance:textfield; }
 #fs-frm [type="submit"]{
   margin-bottom: 0;
 }
-
-
-
-

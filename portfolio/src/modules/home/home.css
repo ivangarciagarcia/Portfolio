@@ -95,6 +95,13 @@ h1{
 .icon-2 {
   margin: 0 10px; /* Espacio entre los iconos */
   font-size: 30px;
+  
+}
+/* Agrega este estilo en tu archivo de estilos CSS o en línea donde sea aplicable */
+
+.icon-2 a {
+  color: inherit; /* Hereda el color del elemento padre (sin color específico) */
+  text-decoration: none; /* Quita la decoración de subrayado del enlace */
 }
 
 
@@ -117,6 +124,11 @@ h1{
 .icon {
   margin: 0 10px; /* Espacio entre los iconos */
   font-size: 35px;
+}
+
+.icon-2 a {
+  color: inherit; /* Hereda el color del elemento padre (sin color específico) */
+  text-decoration: none; /* Quita la decoración de subrayado del enlace */
 }
 
 .subtitulo{

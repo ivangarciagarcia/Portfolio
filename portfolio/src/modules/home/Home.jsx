@@ -14,8 +14,24 @@ export const Home = () => {
 
     const iconsRow1 =[<IoLogoHtml5 key={1}/>, <IoLogoCss3 key={2}/>, <SiJavascript key={3}/>, <SiTypescript key={4}/>, <IoLogoReact key={5}/>, <IoLogoSass key={6}/>]
     const iconsRow2 =[<FaJava key={7}/>, <BiLogoSpringBoot key={8}/>, <SiMysql key={9}/>, <SiJira key={10}/>, <IoLogoFigma key={11}/>, <IoLogoGithub key={12}/>]
-    const iconsRow3 =[<IoLogoGithub key={13}/>, <FaLinkedin key={14}/>, <FaInstagram key={15}/>]
 
+    const iconsRow3 = [
+      {
+        key: 13,
+        icon: <IoLogoGithub />,
+        href: 'https://github.com/ivangarciagarcia', // Reemplaza con tu enlace de GitHub
+      },
+      {
+        key: 14,
+        icon: <FaLinkedin />,
+        href: 'https://www.linkedin.com/in/ivan-garcia-garcia', // Reemplaza con tu enlace de LinkedIn
+      },
+      {
+        key: 15,
+        icon: <FaInstagram />,
+        href: 'https://www.instagram.com/ivangg._', // Reemplaza con tu enlace de Instagram
+      },
+    ];
     return(
       <div className="content-wrapper">
         <section className="presentation-container">
@@ -78,7 +94,9 @@ export const Home = () => {
                 <div className="icons-row-2">
                   {iconsRow3.map((icon) => (
                     <div key={icon.key} className="icon-2">
-                      {icon}
+                      <a href={icon.href} target="_blank" rel="noopener noreferrer">
+                        {icon.icon}
+                      </a>
                     </div>
                   ))}
                 </div>
