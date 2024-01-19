@@ -2,10 +2,6 @@ import "./personalCard.css";
 
 export const PersonalCard = () => {
     return(
-      <img
-        src=""
-        alt="myself"
-        className="my-photo"
-      />
+      <img className="my-photo" src={process.env.PUBLIC_URL + "/img/myself.jpg"} alt="myself"/>
     );
 }

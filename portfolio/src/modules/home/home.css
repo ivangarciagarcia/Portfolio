@@ -1,3 +1,15 @@
+/* COMUN */
+h1{
+  font-size: 50px;
+}
+.titulo-seccion{
+  font-size: 40px;
+
+}
+
+.subtitulo{
+  color: #0D7377;
+}
 
 /* SECCION 1 */
 .presentation-container {
@@ -6,20 +18,19 @@
     padding: 20px; /* Ajusta según tus necesidades */
   }
   
-  .left-column, .right-column {
-    width: 48%; /* Puedes ajustar el ancho según tus necesidades */
+  .left-column-1 {
+    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    text-align: center;
+  }
+  .right-column-1 {
+    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    margin-right: 10%;
+    text-align: center;
+  }
+  .habilidades{
+    text-align: left;
   }
   
-  .my-photo {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Ajusta según tus preferencias, para esquinas redondeadas */
-    margin: auto; /* Centra la imagen verticalmente */
-    display: block; /* Para que el margen automático funcione correctamente */
-    /* Otros estilos según tus preferencias */
-  }
-
-
   /* SECCION 2 */
 
   .technologies-container {
@@ -36,21 +47,47 @@
   .icons-row {
     display: flex;
     justify-content: center;
-    margin-top: 10px; /* Espacio entre las filas de iconos */
+    margin-top: 20px; /* Espacio entre las filas de iconos */
   }
   
   .icon {
-    margin: 0 10px; /* Espacio entre los iconos */
+    margin: 0 15px; /* Espacio entre los iconos */
     font-size: 40px;
   }
-  h2{
-    font-size: 40px;
-  }
-
-  p{
+  .habilidades-subtitulo{
     color: #0D7377;
-    font-size: 20px;
+    margin-left: 19px;
   }
 
-    /* SECCION 3 */
+/* SECCION 3 */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; /* Ajusta según tus necesidades */
+}
+
+.left-column-2 {
+  display: flex; /* Agrega display: flex para usar flexbox */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+}
+
+.right-column-2 {
+  width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+}
+
+.datos-contacto {
+  text-align: left;
+}
+
+.icons-row-2 {
+  display: flex;
+  margin-top: 20px; /* Espacio entre las filas de iconos */
+}
+
+.icon-2 {
+  margin: 0 10px; /* Espacio entre los iconos */
+  font-size: 30px;
+}
 
