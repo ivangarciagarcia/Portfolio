@@ -1,4 +1,7 @@
 /* COMUN */
+
+/* Agrega reglas de estilo para dispositivos móviles */
+
 h1{
   font-size: 50px;
 }
@@ -91,3 +94,32 @@ h1{
   font-size: 30px;
 }
 
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+}
+.titulo-seccion{
+  font-size: 25px;
+
+}
+
+.subtitulo{
+  color: #0D7377;
+}
+  .presentation-container {
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    align-items: center;
+  }
+
+  .left-column-1,
+  .right-column-1,
+  .technologies-container,
+  .centered-content,
+  .right-column-2,
+  .left-column-2 {
+    width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+    margin-right: 0; /* Elimina el margen derecho en dispositivos móviles */
+  }
+  
+}

@@ -25,16 +25,16 @@ export const Home = () => {
 
             <div className="right-column-1">
                 <h1>Iván García García</h1>
-                <h3>Desarrollador Full-Stack</h3>
+                <h2>Desarrollador Full-Stack💻</h2>
                 <p className="subtitulo">Soy un apasionado de la informatica y el desarrolo de Software, actualmente tengo 22 años y estoy trabajando como desarrollador full stack</p>
                 <h2>Mis habilidades</h2>
                 <div className="habilidades">
                   <p className="habilidades-titulo">✺ Diseño + Desarrollo Frontend</p>
                   <p className="habilidades-subtitulo">Diseños limpios y modernos optimizados para el rendimiento, la accesibilidad y convertir usuarios en clientes</p>
                   <p className="habilidades-titulo">✺ Logica + Desarrollo de Backend</p>
-                  <p className="habilidades-subtitulo"></p>
+                  <p className="habilidades-subtitulo">Crear lógica de desarrollo de acuerdo a las necesidades del usuario.</p>
                   <p className="habilidades-titulo">✺ Gestion y mantenimiento de bases de datos</p>
-                  <p className="habilidades-subtitulo"></p>
+                  <p className="habilidades-subtitulo">Entusiasta de la gestión de bases de datos, con enfoque en optimización y administración.</p>
                 </div>
             </div>
         </section>
