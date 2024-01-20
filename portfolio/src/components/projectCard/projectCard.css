@@ -1,77 +1,65 @@
-.second-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* Estilos CSS para las tarjetas */
 
-@media (max-width: 920px) {
-  .second-section {
-    flex-direction: column;
-    max-width: 100px;
-  }
+.projects-container {
+  display: flex;
+  justify-content: space-around; /* Puedes ajustar esto según tu preferencia */
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 30%;
-  margin: 34px;
-  padding: 1rem;
-  text-align: center;
-}
+  border: 1px solid #323232;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 270px;
+  height: 500px;
+  display: inline-block; /* O usa display: inline-flex; para una disposición más flexible */
+  margin-right: 28px;
+  margin-top: 20px;
 
-@media (max-width: 1195px) {
-  .card {
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  @media (max-width: 920px) {
-    .card {
-      text-align: center;
-      margin-left: 295px;
-      width: 300%;
-    }
-  }
 }
 
 .card img {
   width: 100%;
+  height: 250px;
   object-fit: cover;
-  max-height: 350px;
-  min-height: 350px;
-  border-radius: 10px;
 }
 
-.card .card-content {
-  padding: 1rem;
-  text-align: left;
-  border-radius: 10px;
-  font-family: "Montserrat";
+.card-content {
+  padding: 16px;
 }
 
-.card .card-content h3 {
-  font-size: 24px;
-  margin-bottom: 1rem;
+.card h2 {
+  margin-bottom: 8px;
 }
 
-.card .card-content p {
-  font-size: 18px;
-  margin-bottom: 1rem;
-  color: #444444;
-  font-family: "Roboto";
+.card-links a {
+  display: block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #ddd;
 }
 
-.card .card-content button {
-  font-size: 20px;
-  padding: 1rem 2rem;
-  background-color: #ffc800;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+/* Estilos adicionales para los enlaces */
+
+.link-button {
+  text-decoration: none;
+  color: #0D7377; /* Puedes ajustar el color según tus preferencias */
 }
 
-.card .card-content button:hover {
-  transform: scale(1.1);
+.project-description{
+  color: #0D7377;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+.card {
+  width: 300px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+
+}
 }
