@@ -1,12 +1,20 @@
 .content-wrapper {
     margin: 0 auto; /* Establece los márgenes automáticos para centrar horizontalmente */
     max-width: 900px; /* Puedes ajustar el valor según tus necesidades */
+    
   }
   
 .project-subtitulo{
     color:#0D7377;
 
 }
+
+.notfound{
+  text-align: center;
+  color:#0D7377;
+  font-size: 30px;
+}
+
   @media only screen and (max-width: 900px) {
     
       

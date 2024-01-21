@@ -1,0 +1,22 @@
+/* En tu archivo CSS para el componente SearchBar.css */
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  input {
+    width: 100%; /* Hace que el input ocupe todo el ancho disponible */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #323232; /* Cambiado a un color oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    color: #0D7377; /* Color de texto */
+    background-color: #212121; /* Color de fondo, puedes cambiarlo según tu preferencia */
+  }
+  
+  /* Puedes ajustar estos estilos según tus preferencias */
+  
