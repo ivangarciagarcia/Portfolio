@@ -17,7 +17,7 @@ export const SearchBar = ({ onSearch }) => {
     <form className='search-bar'>
       <input
         type="text"
-        placeholder="Buscar proyectos..."
+        placeholder="Buscar..."
         value={searchTerm}
         onChange={handleSearchChange}
       />
