@@ -1,5 +1,6 @@
 {
-  "homepage": "https://ivangarciagarcia.github.io/",
+  "homepage": "https://ivangarciagarcia.github.io/Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
