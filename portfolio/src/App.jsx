@@ -20,8 +20,8 @@ function App() {
 
         <body className='body'>
           <Routes>
-            <Route path="/Portfolio" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/proyectos" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
 
           </Routes>

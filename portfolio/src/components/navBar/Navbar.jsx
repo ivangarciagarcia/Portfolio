@@ -8,11 +8,11 @@ export const Navbar = (props) => {
   const { name, tab1, tab2, tab3 } = props;
 
   const navigateToPortfolio = () => {
-    navigate('/Portfolio');
+    navigate('/');
   };
 
   const navigateToProjects = () => {
-    navigate('/projects');
+    navigate('/proyectos');
   };
 
   const navigateToBlog = () => {
